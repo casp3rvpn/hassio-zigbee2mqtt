@@ -40,7 +40,8 @@
       "base_topic": "zigbee2mqtt"
     },
     "serial": {
-      "port": "/dev/ttyACM0"
+      "port": "tcp://172.20.250.50:8888"
+      "adapter": "ezsp"
     },
     "advanced": {
       "log_level": "warn",
